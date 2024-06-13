@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.shurish.strangers.Fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_connectingFragment"
+            app:destination="@id/connectingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectingFragment"
+        android:name="com.shurish.strangers.Fragments.ConnectingFragment"
+        android:label="fragment_connecting"
+        tools:layout="@layout/fragment_connecting" >
+        <action
+            android:id="@+id/action_connectingFragment_to_callingFragment"
+            app:destination="@id/callingFragment"
+            app:popUpTo="@id/connectingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/callingFragment"
+        android:name="com.shurish.strangers.Fragments.CallingFragment"
+        android:label="fragment_calling"
+        tools:layout="@layout/fragment_calling" >
+        <action
+            android:id="@+id/action_callingFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/callingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

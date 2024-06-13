@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "893893483023",
+    "project_id": "strangers-90add",
+    "storage_bucket": "strangers-90add.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893893483023:android:393b1de0c40a6ea385e17a",
+        "android_client_info": {
+          "package_name": "com.shurish.strangers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893893483023-j2qofpfducm0el50vn4p4kliokq9s8g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shurish.strangers",
+            "certificate_hash": "d670812eb77a6042ae064a6ed4f6ae6ef5bd4484"
+          }
+        },
+        {
+          "client_id": "893893483023-4fdr7mjn43gbr9g6k1c0qunttp44ucm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr5HGHkpUa7VEOg0FAzYQL036qxlGFUrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893893483023-4fdr7mjn43gbr9g6k1c0qunttp44ucm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
